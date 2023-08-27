@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Italianno&display=swap");
+
+body {
+  margin: 0px auto;
+}
+
+/*über uns*/
+
+.über-uns-div {
+  width: auto;
+  background-image: url("assets/italienisches Restaurant3.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5rem;
+}
+
+.über-uns-headline {
+  width: auto;
+  border: 0.5rem outset gray;
+  border-top: none;
+  background-color: black;
+  border-radius: 2rem;
+  padding: 1rem 6rem;
+  text-decoration: white;
+  color: white;
+  font-family: "Italianno", cursive;
+  font-size: 4rem;
+  text-decoration-line: underline;
+}
+
+.über-uns-collect-div {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.über-uns-text {
+  border: 0.5rem outset gray;
+  width: 20rem;
+  height: auto;
+  background-color: black;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2rem;
+  color: white;
+  padding: 1.5rem;
+  opacity: 0.7;
+}

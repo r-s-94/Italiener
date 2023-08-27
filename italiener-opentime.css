@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Italianno&display=swap");
+
+/*open time*/
+
+.opening-time-main-div {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(assets/italienisches\ Restaurant2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.opening-time-headline {
+  margin: 10rem 0;
+  font-size: 5rem;
+  font-family: "Italianno", cursive;
+  border: 0.5rem solid white;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-decoration-line: underline;
+  border-radius: 2rem;
+  padding: 2rem 10rem;
+}
+
+.working-day-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.working-day {
+  margin-bottom: 1rem;
+}
+
+.clock-text {
+  margin-bottom: 5rem;
+}
+
+.working-text {
+  font-size: 2.5rem;
+  color: white;
+}
+
+.address-main-div {
+  width: 100%;
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 5rem;
+  margin-bottom: 10rem;
+}
+
+.address-info-div {
+  width: 50%;
+  padding: 1rem 1rem;
+  border: 0.5rem outset white;
+  background-color: rgba(0, 0, 0, 0.34);
+  border-radius: 1rem;
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-left: 5rem;
+}
+
+.address-iframe-div {
+  margin-right: 5rem;
+  width: 50%;
+  border: 1rem outset black;
+  border-radius: 2rem;
+}
+
+.address-iframe {
+  border-radius: 1rem;
+  width: 100%;
+  height: 18.5rem;
+}

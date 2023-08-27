@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="italiener-head.css" />
+    <link rel="stylesheet" href="italiener-menu.css" />
+    <link rel="stylesheet" href="italiener-wir.css" />
+    <link rel="stylesheet" href="italiener-footer.css" />
+    <link rel="stylesheet" href="italiener-opentime.css" />
+    <link rel="stylesheet" href="italiener-responsiv.css" />
+    <style>
+      /**/
+    </style>
+  </head>
+  <body id="oben">
+    <div class="head-main-div">
+      <div class="head-link-menu-div">
+        <a href="" class="headline-link">HOME</a>
+        <a href="#menu" class="headline-link">Menü</a>
+        <a href="#wir" class="headline-link">Über uns</a>
+        <a href="#open" class="headline-link">Öffnungszeiten</a>
+      </div>
+      <h1 class="headline-restaurant-name">Benvenuto<wbr /> Salvatore</h1>
+    </div>
+
+    <div class="menu-main-div" id="menu">
+      <h1 class="menu-headline">MENU</h1>
+      <h2 class="explanation-div">
+        Klicke auf einen der Button PIZZA, NUDELN oder SALAD um das Gericht
+        angezeigt zu bekommen.
+      </h2>
+
+      <div class="button-menu-div">
+        <button onclick="selection('Pizza')">PIZZA</button>
+        <button onclick="selection('Nudeln')">NUDELN</button>
+        <button onclick="selection('Salad')">SALAD</button>
+      </div>
+
+      <div id="Pizza" class="Gericht">
+        <div class="pizza-main-div">
+          <h1 class="menu-meal-headline pizza-headline">Pizza</h1>
+
+          <div class="menu-meal-div">
+            <div class="salamipizza-section-div">
+              <img
+                src="assets/Salamipizza.jpg"
+                class="salamipizza-img"
+                alt=""
+              />
+
+              <div class="meal-description">
+                Salamipizza
+                <p class="price-text">Price: 15 $</p>
+              </div>
+            </div>
+
+            <div class="hawaiipizza-section-div">
+              <div class="hawaiipizza-div">
+                <img
+                  src="assets/Hawaiipizza.jpg"
+                  class="hawaiipizza-img"
+                  alt=""
+                />
+              </div>
+              <div class="meal-description">
+                Hawaiipizza
+                <p class="price-text">Price: 15 $</p>
+              </div>
+            </div>
+
+            <div class="magharitapizza-section-div">
+              <div class="magharitapizza-div">
+                <img
+                  src="assets/Magharittapizza.jpg"
+                  class="magharitapizza-img"
+                  alt=""
+                />
+              </div>
+              <div class="meal-description">
+                Magharitapizza
+                <p class="price-text">Price: 15 $</p>
+              </div>
+            </div>
+
+            <div class="marinarapizza-section-div">
+              <div class="marinarapizza-div">
+                <img
+                  src="assets/Marinarapizza.jpg"
+                  class="marinarapizza-img"
+                  alt=""
+                />
+              </div>
+              <div class="meal-description">
+                Marinarapizza
+                <p class="price-text">Price: 15 $</p>
+              </div>
+            </div>
+
+            <div class="quattro-stagionipizza-section-div">
+              <div class="quattro-stagionipizza-div">
+                <img
+                  src="assets/Quattro Stagionipizza.jpg"
+                  class="quattro-stagionipizza-img"
+                  alt=""
+                />
+              </div>
+              <div class="meal-description">
+                Quattro-<wbr />Stagioni<wbr />pizza
+                <p class="price-text">Price: 15 $</p>
+              </div>
+            </div>
+
+            <div class="capricciosapizza-section-div">
+              <div class="capricciosapizza-div">
+                <img
+                  src="assets/Capricciosapizza.jpg"
+                  class="capricciosapizza-img"
+                  alt=""
+                />
+              </div>
+              <div class="meal-description">
+                Capricciosapizza
+                <p class="price-text">Price: 15 $</p>
+              </div>
+            </div>
+
+            <div class="devilpizza-section-div">
+              <div class="devilpizza-div">
+                <img
+                  src="assets/Devilpizza.jpg"
+                  class="devilpizza-img"
+                  alt=""
+                />
+              </div>
+              <div class="meal-description">
+                Devil-Pizza
+                <p class="price-text">Price: 15 $</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="Nudeln" class="Gericht">
+        <div class="nudeln-main-div">
+          <div class="nudeln-headline-div">
+            <h1 class="menu-meal-headline nudeln-headline">Nudeln</h1>
+          </div>
+
+          <div class="spaghetti-section-div">
+            <div class="spaghetti-div">
+              <img src="assets/Spaghetti.jpg" class="spaghetti-img" alt="" />
+            </div>
+            <div class="meal-description">
+              Spaghetti
+              <p class="price-text">Price: 10 $</p>
+            </div>
+          </div>
+
+          <div class="spirelli-section-div">
+            <div class="spirelli-div">
+              <img src="assets/Nudelgericht2.jpg" class="spirelli-img" alt="" />
+            </div>
+            <div class="meal-description">
+              Spirelli in Tomatensoße
+              <p class="price-text">Price: 10 $</p>
+            </div>
+          </div>
+
+          <div class="platnudeln-section-div">
+            <div class="platnudeln-div">
+              <img
+                src="assets/Nudelgericht3.jpg"
+                class="platnudeln-img"
+                alt=""
+              />
+            </div>
+            <div class="meal-description">
+              Platnudeln mit Bolonese
+              <p class="price-text">Price: 10 $</p>
+            </div>
+          </div>
+
+          <div class="platnudeln2-section-div">
+            <div class="platnudeln2-div">
+              <img
+                src="assets/Nudelgericht4.jpg"
+                class="platnudeln2-img"
+                alt=""
+              />
+            </div>
+            <div class="meal-description">
+              Platnudeln mit Rindfleisch
+              <p class="price-text">Price: 10 $</p>
+            </div>
+          </div>
+
+          <div class="platnudeln3-section-div">
+            <div class="platnudeln3-div">
+              <img
+                src="assets/Nudelgericht5.jpg"
+                class="platnudeln3-img"
+                alt=""
+              />
+            </div>
+            <div class="meal-description">
+              Platnudeln mit Koreanda
+              <p class="price-text">Price: 10 $</p>
+            </div>
+          </div>
+
+          <div class="platnudeln4-section-div">
+            <div class="platnudeln4-div">
+              <img
+                src="assets/Nudelgericht6.jpg"
+                class="platnudeln4-img"
+                alt=""
+              />
+            </div>
+            <div class="meal-description">
+              Platnudeln mit Spinat
+              <p class="price-text">Price: 10 $</p>
+            </div>
+          </div>
+
+          <div class="nudeldosje-section-div">
+            <div class="nudeldosje-div">
+              <img src="assets/Nudeldosje.jpg" class="nudeldosje-img" alt="" />
+            </div>
+            <div class="meal-description">
+              Nudeldosje
+              <p class="price-text">Price: 10 $</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="Salad" class="Gericht">
+        <div class="salad-main-div">
+          <div class="salad-headline-div">
+            <h1 class="menu-meal-headline salad-headline">Salat</h1>
+          </div>
+
+          <div class="salad1-section-div">
+            <div class="salad1-div">
+              <img src="assets/Salad.jpg" class="salad1-img" alt="" />
+            </div>
+            <div class="meal-description">
+              Salat normal
+              <p class="price-text">Price: 7.5 $</p>
+            </div>
+          </div>
+
+          <div class="salad2-section-div">
+            <div class="salad2-div">
+              <img src="assets/Salad2.jpg" class="salad2-img" alt="" />
+            </div>
+            <div class="meal-description">
+              Salat
+              <p class="price-text">Price: 7.5 $</p>
+            </div>
+          </div>
+
+          <div class="salad3-section-div">
+            <div class="salad3-div">
+              <img src="assets/Salad3.jpg" class="salad3-img" alt="" />
+            </div>
+            <div class="meal-description">
+              Salat Gemüsegarten
+              <p class="price-text">Price: 7.5 $</p>
+            </div>
+          </div>
+
+          <div class="salad4-section-div">
+            <div class="salad4-div">
+              <img src="assets/Salad4.jpg" class="salad4-img" alt="" />
+            </div>
+            <div class="meal-description">
+              Salat mit Wassermelone
+              <p class="price-text">Price: 7.5 $</p>
+            </div>
+          </div>
+
+          <div class="salad5-section-div">
+            <div class="salad5-div">
+              <img src="assets/Salad5.jpg" class="salad5-img" alt="" />
+            </div>
+            <div class="meal-description">
+              Salat Exotik
+              <p class="price-text">Price: 7.5 $</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="über-uns-div" id="wir">
+      <h2 class="über-uns-headline">Über<wbr /> Uns</h2>
+
+      <div class="über-uns-collect-div">
+        <div class="über-uns-text">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe
+          inventore ea, illum nisi natus, suscipit totam quia excepturi debitis
+          nesciunt odio, delectus nihil similique fugit. Odit tempora
+          exercitationem aliquid soluta.
+        </div>
+        <div class="über-uns-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore qui
+          officia veniam nesciunt. Ipsum dolorum molestiae ullam debitis quis
+          nihil distinctio velit at? Consequatur dolorum dolore recusandae ut
+          maiores libero!
+        </div>
+      </div>
+    </div>
+
+    <div class="opening-time-main-div" id="open">
+      <h2 class="opening-time-headline">Öffnungszeiten</h2>
+      <div class="working-day-div">
+        <span class="working-day working-text"
+          >Montag <wbr /> - <wbr /> Freitag</span
+        >
+        <span class="clock-text working-text"
+          >11:00 <wbr /> - <wbr /> 23:00 <wbr /> Uhr</span
+        >
+        <span class="working-day working-text">Samstag</span>
+        <span class="clock-text working-text"
+          >15:00 <wbr /> - <wbr /> 23:00 <wbr /> Uhr</span
+        >
+        <span class="working-day working-text">Sonntag</span>
+        <span class="clock-text working-text"
+          >15:00 <wbr /> - <wbr /> 23:00 <wbr /> Uhr</span
+        >
+      </div>
+      <div class="address-main-div">
+        <div class="address-info-div">
+          <h3 class="address-street">Zum Fuchsbau 32</h3>
+          <h3 class="address-city">17337 Walddeck</h3>
+          <h3 class="address-phone">
+            Tel.:
+            <span class="address-phone-nummer">0381/374647128</span>
+          </h3>
+          <h3 class="opening-time-address-e-mail">
+            E-Mail:
+            <span class="address-e-mail-adress"
+              >benvenuto.<wbr />salvatore<wbr />@italiener<wbr />.de</span
+            >
+          </h3>
+        </div>
+        <div class="address-iframe-div">
+          <iframe
+            class="address-iframe"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9309.309860225629!2d13.077178149808718!3d54.315841991751505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47ab63b474184821%3A0xdfbb7485c2485418!2sOsteria%20Dell%20Oca!5e0!3m2!1sde!2sde!4v1686378591230!5m2!1sde!2sde"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-div">
+      <h3 class="footer-headline">Footer</h3>
+
+      <h2 class="developer-name">Sven<wbr />Matthias<wbr />Richter</h2>
+      <h2 class="developer-headline">
+        Frontend <wbr /> Web-Entwickler/<wbr />Frontend <wbr /> Web-Developer
+      </h2>
+
+      <a class="footer-link" href="#oben">nach Oben</a>
+    </div>
+
+    <script>
+      /*  nach der Begutachtung der gesendeten Dokumente = Übungsinternetseiten kann man sagen das
+            Arbeiten mit der Reduzierung von Chrome funktioniert = 300px oder 320px
+            
+            irgendein Abstimmungsproblem zwischen Chrome und netlify.com
+
+            
+        */
+
+      function selection(court) {
+        let menu = document.getElementsByClassName("Gericht");
+        for (let i = 0; i < menu.length; i++) {
+          menu[i].style.display = "none";
+        }
+        document.getElementById(court).style.display = "block";
+      }
+
+      /*
+      
+      
+      
+
+    
+
+      
+      
+
+            
+<img
+        src="assets/italien restaurant.jpg"
+        class="head-background-img"
+        alt=""
+      />
+            
+
+            
+
+            
+
+            
+
+    
+    
+      
+      */
+    </script>
+  </body>
+</html>

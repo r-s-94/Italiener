@@ -1,0 +1,303 @@
+@import url("https://fonts.googleapis.com/css2?family=Italianno&display=swap");
+
+body {
+  margin: 0;
+  --border-radius: 1rem;
+}
+
+/*menu*/
+
+.menu-main-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(assets/backgroundpicture-gray.jpg);
+  background-size: cover;
+  gap: 5rem;
+}
+
+.menu-headline {
+  margin-top: 10rem;
+  border: 0.5rem outset black;
+  border-top: none;
+  font-size: 3rem;
+  font-family: "Italianno", cursive;
+  border-radius: 1rem;
+  padding: 1.5rem 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+
+.explanation-div {
+  background-color: black;
+  color: white;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-menu-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 7rem;
+  margin-bottom: 10rem;
+}
+
+button {
+  background-color: black;
+  color: white;
+  padding: 1.5rem 3rem;
+  cursor: pointer;
+  font-size: 2.5rem;
+  border: 0.1rem solid white;
+  border-radius: 0.5rem;
+  font-family: "Italianno", cursive;
+  transition-duration: 1s;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+}
+
+.menu-meal-headline {
+  border: 0.3rem solid black;
+  border-radius: 2rem;
+  padding: 1rem 15rem;
+  font-size: 3.5rem;
+  font-family: "Italianno", cursive;
+}
+
+.meal-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+/*Pizza*/
+
+.Gericht {
+  display: none;
+}
+
+.pizza-main-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pizza-headline {
+  background-color: hsl(0, 96%, 42%);
+}
+
+.salamipizza-section-div,
+.magharitapizza-section-div,
+.quattro-stagionipizza-section-div,
+.devilpizza-section-div {
+  margin: 10rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 5rem;
+}
+
+.salamipizza-img {
+  width: 50%;
+  border-radius: var(--border-radius);
+}
+
+.magharitapizza-img {
+  width: 75%;
+  border-radius: var(--border-radius);
+}
+
+.quattro-stagionipizza-img {
+  width: 75%;
+  border-radius: var(--border-radius);
+}
+
+.devilpizza-img {
+  width: 75%;
+  border-radius: var(--border-radius);
+}
+
+.hawaiipizza-section-div,
+.marinarapizza-section-div,
+.capricciosapizza-section-div {
+  margin: 10rem;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+  gap: 5rem;
+}
+
+.hawaiipizza-img {
+  width: 100%;
+  border-radius: var(--border-radius);
+}
+
+.marinarapizza-img {
+  width: 100%;
+  border-radius: var(--border-radius);
+}
+
+.capricciosapizza-img {
+  width: 100%;
+  border-radius: var(--border-radius);
+}
+
+/*Nudeln*/
+
+.Gericht {
+  display: none;
+}
+
+.nudeln-main-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nudeln-headline {
+  background-color: rgb(3, 145, 3);
+}
+
+.spaghetti-section-div,
+.platnudeln-section-div,
+.platnudeln3-section-div,
+.nudeldosje-section-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10rem;
+  gap: 5rem;
+}
+
+.spaghetti-img {
+  width: 75%;
+  border-radius: var(--border-radius);
+}
+
+.platnudeln-img {
+  width: 75%;
+  border-radius: var(--border-radius);
+}
+
+.platnudeln3-img {
+  width: 75%;
+  border-radius: var(--border-radius);
+}
+
+.nudeldosje-img {
+  width: 75%;
+  border-radius: var(--border-radius);
+}
+
+.spirelli-section-div,
+.platnudeln2-section-div,
+.platnudeln4-section-div {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10rem;
+  gap: 5rem;
+}
+
+.spirelli-img {
+  width: 100%;
+  border-radius: var(--border-radius);
+}
+
+.platnudeln2-img {
+  width: 100%;
+  border-radius: var(--border-radius);
+}
+
+.platnudeln4-img {
+  width: 100%;
+  border-radius: var(--border-radius);
+}
+
+/*Salad*/
+
+.Gericht {
+  display: none;
+}
+
+.salad-main-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.salad-headline {
+  background-color: white;
+}
+
+.salad1-section-div,
+.salad3-section-div,
+.salad5-section-div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10rem;
+  gap: 5rem;
+}
+
+.salad1-img {
+  width: 75%;
+  border-radius: var(--border-radius);
+}
+
+.salad3-img {
+  width: 75%;
+  border-radius: var(--border-radius);
+}
+
+.salad5-img {
+  width: 75%;
+  border-radius: var(--border-radius);
+}
+
+.salad2-section-div,
+.salad4-section-div {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10rem;
+  gap: 5rem;
+}
+
+.salad2-img {
+  width: 75%;
+  border-radius: var(--border-radius);
+}
+
+.salad4-img {
+  width: 15rem;
+  border-radius: var(--border-radius);
+}
+
+.meal-description {
+  background-color: white;
+  border: 0.5rem outset black;
+  border-radius: 2rem;
+  padding: 3rem 3rem;
+  font-size: 2rem;
+}
+
+.price-text {
+}
